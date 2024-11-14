@@ -1,7 +1,3 @@
-esto es un proyecto next.js
-quiero que lo mejores un poco la documentación, quiero que además de que esten explicados los endpoints quiero que aparezcan en una tabla y quiero que expliques tambien los comandos básicos que se utilizan en una tipica aplicacion de next.js
-hacelo en markdown
-
 # Coloquio Redes y Comunicaciones
 
 ### Por Arzeno Eugenio
