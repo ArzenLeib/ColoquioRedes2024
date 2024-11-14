@@ -48,7 +48,7 @@ Tener el SpreadSheetID del sheet a mano (está entre /d/ y /edit/)
 
 **Ejemplo de la información que trae:**
 
-json
+```json
 {
   "sub": "auth0|5f8d4b3cfc13b740c7ed9e77",
   "name": "John Doe",
@@ -77,8 +77,7 @@ json
   "created_at": "2021-01-01T12:00:00.000Z",
   "updated_at": "2023-01-01T12:00:00.000Z"
 }
-
-
+```
 
 ---
 
