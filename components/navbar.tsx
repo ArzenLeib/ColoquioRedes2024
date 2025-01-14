@@ -227,12 +227,12 @@ export default function Navbar() {
                 {user ? (
                   <>
                     <CiLogout className="mr-2 font-bold" />
-                    Log out
+                    Abrir Sesión
                   </>
                 ) : (
                   <>
                     <CiLogin className="mr-2 font-bold" />
-                    Log in
+                    Cerrar Sesión
                   </>
                 )}
               </Link>
