@@ -212,12 +212,12 @@ export default function Navbar() {
                   {theme === "dark" ? (
                     <>
                       <SunIcon className="mr-2 h-4 w-4" />
-                      Switch to Light
+                      Cambiar tema a Claro
                     </>
                   ) : (
                     <>
                       <MoonIcon className="mr-2 h-4 w-4" />
-                      Switch to Dark
+                      Cambiar tema a Claro
                     </>
                   )}
                 </DropdownMenuItem>
