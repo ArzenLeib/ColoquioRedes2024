@@ -208,6 +208,20 @@ export default function Navbar() {
                 </div>
               </DropdownMenuLabel>
               <DropdownMenuSeparator />
+                <DropdownMenuItem onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+                  {theme === "dark" ? (
+                    <>
+                      <SunIcon className="mr-2 h-4 w-4" />
+                      Switch to Light
+                    </>
+                  ) : (
+                    <>
+                      <MoonIcon className="mr-2 h-4 w-4" />
+                      Switch to Dark
+                    </>
+                  )}
+                </DropdownMenuItem>
+              <DropdownMenuSeparator />
               <DropdownMenuItem asChild>
               <Link href={user ? "/api/auth/logout" : "/api/auth/login"}>
                 {user ? (
