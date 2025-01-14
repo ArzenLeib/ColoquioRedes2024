@@ -240,22 +240,6 @@ export default function Navbar() {
             </DropdownMenuContent>
           </DropdownMenu>
         </nav>
-        <Tooltip>
-          <TooltipTrigger asChild>
-            <Button
-              variant="outline"
-              size="icon"
-              className="ml-4"
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-            >
-              {theme === "dark" ? <SunIcon className="h-6 w-6" /> : <MoonIcon className="h-6 w-6" />}
-              <span className="sr-only">Cambiar de Tema</span>
-            </Button>
-          </TooltipTrigger>
-          <TooltipContent>
-            <p>Cambiar de Tema</p>
-          </TooltipContent>
-        </Tooltip>
       </header>
     </TooltipProvider>
   )
